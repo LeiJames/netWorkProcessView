@@ -15,6 +15,7 @@
 		DE0DF53C1F8BBC1A005A9DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0DF53A1F8BBC1A005A9DBB /* LaunchScreen.storyboard */; };
 		DE0DF5471F8BBC1A005A9DBB /* netWorkProcessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DF5461F8BBC1A005A9DBB /* netWorkProcessTests.m */; };
 		DE0DF5521F8BBC1A005A9DBB /* netWorkProcessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DF5511F8BBC1A005A9DBB /* netWorkProcessUITests.m */; };
+		DE0DF5611F8BBC39005A9DBB /* NetWorkProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DF5601F8BBC39005A9DBB /* NetWorkProcessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DE0DF54D1F8BBC1A005A9DBB /* netWorkProcessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netWorkProcessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0DF5511F8BBC1A005A9DBB /* netWorkProcessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netWorkProcessUITests.m; sourceTree = "<group>"; };
 		DE0DF5531F8BBC1A005A9DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0DF55F1F8BBC39005A9DBB /* NetWorkProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkProcessView.h; sourceTree = "<group>"; };
+		DE0DF5601F8BBC39005A9DBB /* NetWorkProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkProcessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DE0DF5301F8BBC1A005A9DBB /* AppDelegate.m */,
 				DE0DF5321F8BBC1A005A9DBB /* ViewController.h */,
 				DE0DF5331F8BBC1A005A9DBB /* ViewController.m */,
+				DE0DF55F1F8BBC39005A9DBB /* NetWorkProcessView.h */,
+				DE0DF5601F8BBC39005A9DBB /* NetWorkProcessView.m */,
 				DE0DF5351F8BBC1A005A9DBB /* Main.storyboard */,
 				DE0DF5381F8BBC1A005A9DBB /* Assets.xcassets */,
 				DE0DF53A1F8BBC1A005A9DBB /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				DE0DF5341F8BBC1A005A9DBB /* ViewController.m in Sources */,
 				DE0DF5311F8BBC1A005A9DBB /* AppDelegate.m in Sources */,
 				DE0DF52E1F8BBC1A005A9DBB /* main.m in Sources */,
+				DE0DF5611F8BBC39005A9DBB /* NetWorkProcessView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

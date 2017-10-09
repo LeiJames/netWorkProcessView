@@ -16,7 +16,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    NetWorkProcessView *netWorkView = [[NetWorkProcessView alloc] init];
+    netWorkView.frame = CGRectMake(100, 100, 100, 100);
+    netWorkView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:netWorkView];
+    [netWorkView start];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.frame = CGRectMake(30, 30, 30, 30);
+    btn.backgroundColor = [UIColor cyanColor];
+    [btn setTitle:@"点击停止" forState:UIControlStateNormal];
+    [btn sizeToFit];
+    [btn addTarget:self action:@selector(clickStop:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)clickStop:(UIButton *)btn
+{
+    for (UIView *netWorkView in self.view.subviews) {
+        
+        if ([netWorkView isKindOfClass:[NetWorkProcessView class]]) {
+            
+            [(NetWorkProcessView *)netWorkView stop];
+            
+        }
+    }
 }
 
 
